@@ -1,0 +1,15 @@
+tasks:
+- name: task1
+  dependencies: 
+  - task2 
+- name: task1
+  dependencies:
+  - task5
+- name: task3
+  dependencies: []
+- name: task4
+  dependencies:
+  - task1
+  - task3
+- name: task5
+  dependencies: []

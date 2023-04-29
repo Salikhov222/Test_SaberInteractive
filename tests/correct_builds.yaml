@@ -1,0 +1,11 @@
+builds:
+- name: build1
+  tasks:
+  - task1
+  - task2
+- name: build2
+  tasks:
+  - task3
+- name: build3
+  tasks:
+  - task4

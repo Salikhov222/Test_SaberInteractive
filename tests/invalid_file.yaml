@@ -1,0 +1,9 @@
+builds:
+- name: name1
+  tasks:
+  - task1
+- name
+  tasks:
+  - task1
+  - task2
+  - task3
